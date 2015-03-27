@@ -1,3 +1,12 @@
+moonshot-gss-eap (0.9.2-3+deb8u1) unstable; urgency=medium
+
+  * Incorporate upstream deltas:
+      - 6dbf073: Allow white space in CA certificates, Closes: #781312
+      - 90f04c98: Don't shut down openssl on last context deletion,
+    Closes: #781311
+
+ -- Sam Hartman <hartmans@debian.org>  Fri, 27 Mar 2015 08:16:18 -0400
+
 moonshot-gss-eap (0.9.2-3) unstable; urgency=medium
 
   * Review security of libeap/wpa_supplicant and send mail to security
